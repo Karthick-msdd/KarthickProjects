@@ -1,0 +1,115 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+
+}
+
+header {
+    background: #0073e6;
+    color: white;
+    padding: 20px;
+    position:fixed;
+    top: 0px;
+    width: 100%;
+}
+
+nav a {
+    
+    color: white;
+    text-decoration: none;
+    margin: 0 15px;
+    font-weight: bold;
+}
+
+.logo {
+    width: 100px;
+    display: block;
+    margin: 0 auto;
+}
+
+.hero {
+    /* margin-top: 100px; */
+    background: #f4f4f4;
+    padding: 50px;
+}
+
+.latest-news {
+    padding: 20px;
+}
+
+table {
+    width: 80%;
+    margin: 20px auto;
+    border-collapse: collapse;
+}
+
+table th, table td {
+    border: 1px solid #ddd;
+    padding: 10px;
+}
+
+footer {
+    background: #0073e6;
+    color: white;
+    padding: 10px;
+    position:fixed;
+    bottom: 0px;
+    width: 100%;
+}
+
+
+.about-section {
+    background: #f4f4f4;
+    padding: 50px 20px;
+}
+
+.owner-info {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 40px;
+}
+
+.owner-photo {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    object-fit: cover;
+    border: 3px solid #0073e6;
+    margin-bottom: 20px;
+}
+
+.owner-bio {
+    max-width: 600px;
+    text-align: center;
+    font-size: 1.1em;
+    line-height: 1.6;
+}
+
+.additional-info {
+    max-width: 800px;
+    margin: 0 auto;
+    text-align: left;
+    font-size: 1em;
+    line-height: 1.6;
+}
+
+main{
+    margin-top: 130px;
+}
+
+/* .nav-bar{
+    display: flex;
+    flex-direction: row;
+} */
+
+.nav-bar img{
+    border-radius: 100%;
+    width: 50px;
+    padding: 20px 0;
+}
